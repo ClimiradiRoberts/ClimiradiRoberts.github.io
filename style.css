@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    background-color: rgb(206, 57, 87);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* to centralize the container/ board */
+}
+.box {
+    width: 87px;
+    height: 85.8px;
+    font-size: 33px;
+    text-align: center;
+}
+.black {
+    background-color: #000;
+    color: #fff;
+}
+.white {
+    background-color: #fff;
+}
+.container {
+    background-color: #fff;
+    display: flex;
+    padding: 2px;
+    border: 2px solid #fff;
+    box-shadow: rgba(119, 119, 131, 0.2) 0 7px 29px 0;
+}
